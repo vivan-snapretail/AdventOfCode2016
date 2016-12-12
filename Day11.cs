@@ -14,7 +14,6 @@ namespace AdventOfCode2016
     {
         HashSet<string> visited = new HashSet<string>();
         int solution = int.MaxValue;
-        //PriorityQueue<Building>  queue = new PriorityQueue<Building>();
         Queue<Building> queue = new Queue<Building>();
         public void calculate1()
         {
